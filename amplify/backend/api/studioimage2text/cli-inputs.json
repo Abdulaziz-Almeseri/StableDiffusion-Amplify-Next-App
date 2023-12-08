@@ -4,17 +4,13 @@
     "apiName": "studioimage2text",
     "serviceName": "AppSync",
     "defaultAuthType": {
-      "mode": "AWS_IAM"
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
     },
     "additionalAuthTypes": [
       {
         "mode": "AWS_IAM"
-      },
-      {
-        "mode": "API_KEY",
-        "expirationTime": 365,
-        "apiKeyExpirationDate": "2024-12-07T11:08:21.671Z",
-        "keyDescription": "dont know"
       }
     ],
     "conflictResolution": {

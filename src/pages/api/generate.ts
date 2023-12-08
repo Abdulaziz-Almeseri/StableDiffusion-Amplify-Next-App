@@ -23,9 +23,9 @@ export default async function handler(
         "ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4",
       input: {
         prompt,
-        height: 512,
+        negative_prompt,
         width: 384,
-        negative_prompt
+        height: 512
       }
     })
   });
