@@ -6,7 +6,17 @@
     "defaultAuthType": {
       "mode": "AWS_IAM"
     },
-    "additionalAuthTypes": [],
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      },
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2024-12-07T11:08:21.671Z",
+        "keyDescription": "dont know"
+      }
+    ],
     "conflictResolution": {
       "defaultResolutionStrategy": {
         "type": "AUTOMERGE"
