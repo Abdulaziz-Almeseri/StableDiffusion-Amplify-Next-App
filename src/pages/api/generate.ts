@@ -23,9 +23,9 @@ export default async function handler(
         "ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4",
       input: {
         prompt,
-        negative_prompt,
+        height: 512,
         width: 384,
-        height: 512
+        negative_prompt
       }
     })
   });
@@ -40,7 +40,7 @@ export default async function handler(
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Token " + "add_key_here"
+        Authorization: "Token " + "r8_ISmS6xAfRtYeUpRuDWDZlBhXoXyUApo0jajuX"
       }
     });
     let jsonFinalResponse = await finalResponse.json();
