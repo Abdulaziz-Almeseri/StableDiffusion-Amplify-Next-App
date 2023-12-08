@@ -16,11 +16,11 @@ export default async function handler(
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "Token " + "add_key_here"
+      Authorization: "Token " + "r8_ISmS6xAfRtYeUpRuDWDZlBhXoXyUApo0jajuX"
     },
     body: JSON.stringify({
       version:
-        "f178fa7a1ae43a9a9af01b833b9d2ecf97b1bcb0acfd2dc5dd04895e042863f1",
+        "ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4",
       input: {
         prompt,
         negative_prompt,
